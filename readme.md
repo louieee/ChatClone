@@ -9,7 +9,7 @@
 <li>Run <code>python manage.py migrate</code> to migrate the commands in the migration file to the database.</li>
 <li>Run <code>python manage.py collectstatic -y</code> to generate needed static files and gather them in the static root folder</li>
 <li>Run <code>python manage.py runserver </code> to start the web server on port 8000</li>
-<li>Navigate to <a href="http://localhost:8080/docs">http://localhost:8080/docs</a> to view the documentation and also test the endpoints
+<li>Navigate to <a href="http://localhost:8000/docs">http://localhost:8080/docs</a> to view the documentation and also test the endpoints
 <li>Go to your terminal and type <code>python test.py</code>, This would ask you to input the channel name and the user id, 
 this allows you to connect different users to different channels and monitor how they receive receive the websocket signals </li>
 <li>While testing the endpoints on swagger, watch how the signals are being sent</li>
