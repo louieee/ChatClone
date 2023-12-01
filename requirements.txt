@@ -1,0 +1,31 @@
+django==4.0 # for django
+pillow==10.0.0 # for imagefield
+
+djangorestframework==3.14.0 # For REST API
+djangorestframework-simplejwt==5.2.2
+
+
+drf-yasg==1.21.7 # for documentation
+celery==5.2.7 # for Running cron jobs
+redis==4.6.0 # database for websocket messages and celery results
+
+channels==4.0.0 # for websockets
+channels-redis==4.1.0
+daphne==4.0.0
+
+
+
+python-decouple==3.8 # for getting access to environment variables
+
+django-celery-beat==2.3.0 # for storing celery jobs on the db
+
+asgiref==3.7.2 # for websocket channel
+aioredis==2.0.1 # for connecting websocket to redis
+
+
+websockets==11.0.3 # for websocket client
+websocket-client==1.6.4 # for testing the websocket
+
+
+
+
