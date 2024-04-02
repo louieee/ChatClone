@@ -14,11 +14,6 @@
 this allows you to connect different users to different channels and monitor how they receive receive the websocket signals </li>
 <li>While testing the endpoints on swagger, watch how the signals are being sent</li>
 
-<h3>NOTE:</h3>
-<li>I used <code>Models</code> instead of <code>Entity</code> because django recognizes models.py.</li>
-<li>I could not write tests because the deadline was short. All these was done within a day</li>
-<li>I did not write a lot of comments unless where necessary.</li>
-<li>I did not use .env file because this is just an assignment.</li>
 
 <h3>Stack Used</h3>
 <li>Django, Django Rest Framework, Django Channels and Swagger</li>
